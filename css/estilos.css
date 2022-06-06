@@ -1,0 +1,200 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url("../imagenes/fondo.jpg");
+    background-repeat: no-repeat;
+    /*position: absolute;*/
+    /*background-attachment: fixed;*/
+    background-size: cover;
+}
+
+.user {
+    background-color: darkcyan;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+
+.user a {
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cabecera {
+    background-color: #97872eff;
+    display: flex;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    /*background-color: burlywood;*/
+   /* padding: auto;*/
+    text-align: center;
+    width: 10%;
+}
+
+.search {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+
+.buscar {
+    font-size: 20px;
+    width: 300px;
+}
+
+.enviar {
+    background-color: black;
+    color: aliceblue;
+    font-size: 20px;
+    width: 100px;
+}
+
+.menu {
+    padding-top: 25px;
+    width: 40%;
+}
+
+.menu ul {
+    /*background-color: darkgray;*/
+    /*height: 100px;*/
+   /* padding: 10px;*/
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline;
+    margin: 30px;
+}
+
+.menu ul li a {
+    color: rgb(249, 254, 254);
+    font-size: 20px;
+   /* margin-top: 20px;
+    margin-right: 5px;
+    text-align: right;*/
+    text-align: center;
+}
+
+.menu ul li a:hover {
+    color: rgb(14, 14, 14);
+}
+
+/*---------------------------------------*/
+/* Estilos del contenedor principal */
+.contenedor {
+    display: block;
+    width: 100%;
+    margin: auto;
+    min-height: 600px;
+}
+
+.principal {
+    background-color: rgb(234, 217, 125, 0.5);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 800px;
+    padding-top: 100px;
+    /*width: 100%;*/
+}
+
+/* Estilos de la clase libro*/
+
+.libro {
+    background-color: antiquewhite;
+    opacity: 0.8;
+    margin: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+}
+
+/* Estilos archivos */
+
+.archivos {
+    display: flex;
+    min-width: 700px;
+    margin: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.archivos embed {
+    margin: 5px;
+}
+
+.pdf {
+    border: 1px #000 solid;
+    margin: 2px;
+}
+
+.pdf h3 {
+    font-size: 16px;
+}
+
+.portada img {
+    margin: 50px auto;
+}
+
+/* Estilos formulario */
+
+.frm_contacto {
+    margin: 50px auto;
+    width: 600px;
+}
+
+.group {
+    margin: 10px;
+}
+
+.group label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input, textarea, button {
+    border-radius: 5px;font-size: 18px;
+}
+
+.boton_envio {
+    background-color: black;
+    color: azure;
+}
+
+.boton_envio:hover {
+    background-color: darkgray;
+    color: black;
+}
+
+/*--------------------------------------*/
+/* Estilos del Footer*/
+footer {
+    background-color: #97872eff;
+    width: 100%;
+    height: 60px;
+    padding-top: 20px;
+}
+
+.pie {
+    text-align: center;
+}
+
+.pie p {
+    color: rgb(249, 253, 253);
+    /*margin-top: 20px;*/
+    font-weight: bold;
+}
+
+/*---------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
