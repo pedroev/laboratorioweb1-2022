@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookcation</title>
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <!-- <div class="user">
+        <a href="#">Iniciar Sesión</a>
+        <a href="#">Registrarse</a>
+    </div> -->
+    <header class="cabecera">
+        <div class="logo"><img src="imagenes/logo.png" alt="Logo Boo0kcation" width="100"></div>
+        <div class="search">
+            <form action="#">
+                <input type="search" class="buscar" placeholder="Buscar">
+                <input type="submit" class="enviar" value="Buscar">
+            </form>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nuestro_sitio.html">Nuestro Sitio</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="contenedor">
+        <div class="menu-lateral">
+            <ul>
+                <li><a href="menu_lateral/anio.html">Año</a></li>
+                <li><a href="menu_lateral/autor.html">Autor</a></li>
+                <li><a href="menu_lateral/editorial.html">Editorial</a></li>
+                <li><a href="menu_lateral/tema.html">Tema</a></li>
+            </ul>
+        </div>
+        <div class="principal frm">
+           <form action="#" class="frm_contacto">
+               <fieldset>
+                <div class="group">
+                    <p><label for="#">Nombre:</label></p>
+                    <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
+                </div>
+                <div class="group">
+                    <p><label for="#">Apellido:</label></p>
+                    <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido" required>
+                </div>
+                <div class="group">
+                    <p><label for="#">Email:</label></p>
+                    <input type="email" name="correo" id="correo" placeholder="Ingrese su correo electrónico" required>
+                </div>
+                <div class="group">
+                    <p><label for="#">Teléfono:</label></p>
+                    <input type="tel" name="telefono" id="telefono" required>
+                </div>
+                <div class="group">
+                    <p><label for="#">Mensaje:</label></p>
+                    <textarea name="mensaje" id="mensaje" cols="50" rows="10"></textarea>
+                </div>
+                <div class="group">
+                    <button type="submit" class="boton_envio">Enviar Consulta</button>
+                </div>
+               </fieldset>
+           </form>
+        </div>
+    </div>
+    <footer>
+        <div class="pie">
+            <p>Sitio web desarrollado por Pedro E. Vázquez © 2022 | Todos los derechos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>
