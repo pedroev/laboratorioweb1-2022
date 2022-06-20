@@ -124,6 +124,23 @@ a {
     width: 250px;
 }
 
+.libro ul {
+    margin-top: 10px;
+}
+
+.libro ul li {
+    margin-bottom: 5px;
+}
+
+.libro a {
+    color: #000;
+    font-size: 18px;
+}
+
+.libro ul li:hover {
+    background-color: rgb(234, 217, 125, 0.5);
+}
+
 /* Estilos archivos */
 
 .archivos {
