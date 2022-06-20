@@ -168,6 +168,17 @@ a {
     margin: 50px auto;
 }
 
+/* Estilos nuestro sitio*/
+
+.nuestro_sitio h3 {
+    text-align: center;
+}
+
+.nuestro_sitio p {
+    color: #fff;
+    padding: 20px;
+}
+
 /* Estilos formulario */
 
 .frm_contacto {
