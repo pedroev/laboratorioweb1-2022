@@ -170,10 +170,13 @@ a {
 
 /* Estilos nuestro sitio*/
 
+.nuestro_sitio {
+    margin: 10px auto;
+    width: 900px;
+}
+
 .nuestro_sitio h3 {
     text-align: center;
-    margin: auto;
-    width: 500px;
 }
 
 .nuestro_sitio p {
