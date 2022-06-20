@@ -172,6 +172,8 @@ a {
 
 .nuestro_sitio h3 {
     text-align: center;
+    margin: auto;
+    width: 500px;
 }
 
 .nuestro_sitio p {
